@@ -1,0 +1,24 @@
+{
+  "name": "socket-room-chat",
+  "version": "1.0.0",
+  "description": "Socket room chat server with Express and PostgreSQL maintaining 20 messages per room",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node test/client.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "socket.io-client": "^4.7.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Antigravity AI",
+  "license": "ISC"
+}
